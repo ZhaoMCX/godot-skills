@@ -72,4 +72,6 @@ godot --headless --path <project> --script <skill>/scripts/verify_project.gd -- 
 
 Headless 显示驱动禁用渲染与窗口管理，适合契约、资源和结构验证；截图必须使用可渲染显示驱动。截图脚本会在 Headless 下立即失败，避免无限等待。无显示设备的 CI 只能把视觉验收标为 `blocked` 或 `skipped`，不能伪报通过。
 
+`capture_scene.gd` 保存图片后必须退出。若为检查结果打开截图查看窗口，检查结束后关闭该窗口；任务交付前核对没有遗留的截图进程或查看窗口。截图文件默认保留为验收证据，除非用户明确要求删除。
+
 统一报告使用 `passed`、`failed`、`skipped`、`blocked` 四种状态，串联依赖闭包、契约、资产、场景、预算、编辑器扫描、主场景、渲染和导出。脚本错误、资源错误、孤儿节点、ObjectDB 泄漏或新增运行日志错误均为失败；未配置的导出或无显示环境必须明确跳过或阻塞。
