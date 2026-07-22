@@ -1,0 +1,307 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:PrimitiveMesh": "a01e16402947d3b15a7223304c65e3d157e78962b1a28133619b0a7bcf2d6f02"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "81e644949b337ababb26741c584df3fa2405e7aa8ee044b4eb36ac61cbf4b670",
+  "contract_id": "godot-4.7:resource:TextMesh",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/text_mesh-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/text_mesh-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_textmesh.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "TextMesh",
+    "PrimitiveMesh",
+    "Mesh",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "add_uv2",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Off,Arbitrary,Word,Word (Smart)",
+      "name": "autowrap_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.5",
+      "hint": 1.0,
+      "hint_string": "0.1,10,0.1,suffix:px",
+      "name": "curve_step",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "AABB(0, 0, 0, 0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:m",
+      "name": "custom_aabb",
+      "type": "AABB",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.05",
+      "hint": 1.0,
+      "hint_string": "0.0,100.0,0.001,or_greater,suffix:m",
+      "name": "depth",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "flip_faces",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Font",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Font",
+      "name": "font",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "16",
+      "hint": 1.0,
+      "hint_string": "1,256,1,or_greater,suffix:px",
+      "name": "font_size",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Left,Center,Right,Fill",
+      "name": "horizontal_alignment",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "163",
+      "hint": 6.0,
+      "hint_string": "Kashida Justification:1,Word Justification:2,Justify Only After Last Tab:8,Skip Last Line:32,Skip Last Line With Visible Characters:64,Do Not Skip Single Line:128",
+      "name": "justification_flags",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 32.0,
+      "hint_string": "",
+      "name": "language",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2i(0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "lightmap_size_hint",
+      "type": "Vector2i",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "line_spacing",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "BaseMaterial3D,ShaderMaterial",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "BaseMaterial3D,ShaderMaterial",
+      "name": "material",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "offset",
+      "type": "Vector2",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.01",
+      "hint": 1.0,
+      "hint_string": "0.0001,128,0.0001,suffix:m",
+      "name": "pixel_size",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Default,URI,File,Email,List,None,Custom",
+      "name": "structured_text_bidi_override",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "[]",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "structured_text_bidi_override_options",
+      "type": "Array",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 18.0,
+      "hint_string": "",
+      "name": "text",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Auto,Left-to-Right,Right-to-Left",
+      "name": "text_direction",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "uppercase",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2.0",
+      "hint": 1.0,
+      "hint_string": "0,10,0.01,or_greater",
+      "name": "uv2_padding",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Top,Center,Bottom",
+      "name": "vertical_alignment",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "500.0",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "width",
+      "type": "float",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"TextMesh\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "font_size": "font_size = 17"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "TextMesh",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"17\",\"name\":\"font_size\"}",
+      "nested_resource=font:FontFile",
+      "independent_text=user://godot-dev/builtin-verify/resource/text_mesh-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/text_mesh-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

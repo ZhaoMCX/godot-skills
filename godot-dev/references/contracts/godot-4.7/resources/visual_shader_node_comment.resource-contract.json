@@ -1,0 +1,191 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:VisualShaderNodeFrame": "28dbb0bd344cdb6d8565a6da67a873d5ae4d87b886c1a067939c5bd0889f0a4e"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "b05fa6a5af78ba17bf32a2676f58e657f11f0e61bad47fd4e876520cdd825c47",
+  "contract_id": "godot-4.7:resource:VisualShaderNodeComment",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/visual_shader_node_comment-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/visual_shader_node_comment-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_visualshadernodecomment.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "VisualShaderNodeComment",
+    "VisualShaderNodeFrame",
+    "VisualShaderNodeResizableBase",
+    "VisualShaderNode",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "PackedInt32Array()",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "attached_nodes",
+      "type": "PackedInt32Array",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "autoshrink",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "[]",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "default_input_values",
+      "type": "Array",
+      "usage": 10.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "description",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "[]",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "expanded_output_ports",
+      "type": "Array",
+      "usage": 10.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "linked_parent_graph_frame",
+      "type": "int",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "output_port_for_preview",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "size",
+      "type": "Vector2",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.3, 0.3, 0.3, 0.75)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "tint_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "tint_color_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"Title\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "title",
+      "type": "String",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"VisualShaderNodeComment\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "resource_local_to_scene": "resource_local_to_scene = true"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "VisualShaderNodeComment",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"true\",\"name\":\"resource_local_to_scene\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/visual_shader_node_comment-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/visual_shader_node_comment-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

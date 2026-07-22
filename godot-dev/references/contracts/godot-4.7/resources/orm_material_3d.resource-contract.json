@@ -1,0 +1,1117 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:BaseMaterial3D": "e37852e6cfdef64cb87a1b037d43eee891d4cbc2be148ea19e4f1dcb1276f590"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "8fd409520e0fe92ff1d8ecbd34c7664577475b3d27580d641a28839a9dcd3ade",
+  "contract_id": "godot-4.7:resource:ORMMaterial3D",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/orm_material_3d-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/orm_material_3d-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_ormmaterial3d.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "ORMMaterial3D",
+    "BaseMaterial3D",
+    "Material",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "Color(1, 1, 1, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "albedo_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "albedo_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "albedo_texture_force_srgb",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "albedo_texture_msdf",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-1,1,0.01",
+      "name": "anisotropy",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "anisotropy_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "anisotropy_flowmap",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "ao_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "ao_light_affect",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "ao_on_uv2",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0, 0, 0, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "backlight",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "backlight_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "backlight_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "bent_normal_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "bent_normal_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "billboard_keep_scale",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Enabled,Y-Billboard,Particle Billboard",
+      "name": "billboard_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Mix,Add,Subtract,Multiply,Premultiplied Alpha",
+      "name": "blend_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "clearcoat",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "clearcoat_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.5",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "clearcoat_roughness",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "clearcoat_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Back,Front,Disabled",
+      "name": "cull_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Opaque Only,Always,Never",
+      "name": "depth_draw_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Default,Inverted",
+      "name": "depth_test",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "detail_albedo",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Mix,Add,Subtract,Multiply",
+      "name": "detail_blend_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "detail_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "detail_mask",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "detail_normal",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "UV1,UV2",
+      "name": "detail_uv_layer",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Burley,Lambert,Lambert Wrap,Toon",
+      "name": "diffuse_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "disable_ambient_light",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "disable_fog",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "disable_receive_shadows",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "disable_specular_occlusion",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "10.0",
+      "hint": 1.0,
+      "hint_string": "0,4096,0.01,suffix:m",
+      "name": "distance_fade_max_distance",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,4096,0.01,suffix:m",
+      "name": "distance_fade_min_distance",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,PixelAlpha,PixelDither,ObjectDither",
+      "name": "distance_fade_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0, 0, 0, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "emission",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "emission_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,16,0.01,or_greater",
+      "name": "emission_energy_multiplier",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "emission_on_uv2",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Add,Multiply",
+      "name": "emission_operator",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "emission_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "fixed_size",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "75.0",
+      "hint": 1.0,
+      "hint_string": "1,179,0.1,degrees",
+      "name": "fov_override",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "grow",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-16,16,0.001,suffix:m",
+      "name": "grow_amount",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "heightmap_deep_parallax",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "heightmap_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "heightmap_flip_binormal",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "heightmap_flip_tangent",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "heightmap_flip_texture",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "5.0",
+      "hint": 1.0,
+      "hint_string": "-16,16,0.001",
+      "name": "heightmap_scale",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "heightmap_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,250,1",
+      "name": "msdf_outline_size",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "4.0",
+      "hint": 1.0,
+      "hint_string": "1,100,1",
+      "name": "msdf_pixel_range",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Material",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Material",
+      "name": "next_pass",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "no_depth_test",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "normal_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "-16,16,0.01",
+      "name": "normal_scale",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "normal_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "orm_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0.1,128,0.1,suffix:px",
+      "name": "point_size",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0.01,4096,0.01,suffix:m",
+      "name": "proximity_fade_distance",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "proximity_fade_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "refraction_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.05",
+      "hint": 1.0,
+      "hint_string": "-1,1,0.01",
+      "name": "refraction_scale",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "refraction_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Red,Green,Blue,Alpha,Gray",
+      "name": "refraction_texture_channel",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "-128,127,1",
+      "name": "render_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "rim",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "rim_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "rim_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.5",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "rim_tint",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Unshaded,Per-Pixel",
+      "name": "shading_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "shadow_to_opacity",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "SchlickGGX,Toon,Disabled",
+      "name": "specular_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0, 0, 0, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "stencil_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Always,Less,Equal,Less Or Equal,Greater,Not Equal,Greater Or Equal",
+      "name": "stencil_compare",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 6.0,
+      "hint_string": "Read,Write,Write Depth Fail",
+      "name": "stencil_flags",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Outline,X-Ray,Custom",
+      "name": "stencil_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.01",
+      "hint": 1.0,
+      "hint_string": "0,1,0.001,or_greater,suffix:m",
+      "name": "stencil_outline_thickness",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 1.0,
+      "hint_string": "0,255,1",
+      "name": "stencil_reference",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "subsurf_scatter_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "subsurf_scatter_skin_mode",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "subsurf_scatter_strength",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "subsurf_scatter_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0.00,1.0,0.01",
+      "name": "subsurf_scatter_transmittance_boost",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(1, 1, 1, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "subsurf_scatter_transmittance_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.1",
+      "hint": 1.0,
+      "hint_string": "0.001,8,0.001,or_greater",
+      "name": "subsurf_scatter_transmittance_depth",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "subsurf_scatter_transmittance_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "subsurf_scatter_transmittance_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "3",
+      "hint": 2.0,
+      "hint_string": "Nearest,Linear,Nearest Mipmap,Linear Mipmap,Nearest Mipmap Anisotropic,Linear Mipmap Anisotropic",
+      "name": "texture_filter",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "texture_repeat",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Alpha,Alpha Scissor,Alpha Hash,Depth Pre-Pass",
+      "name": "transparency",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_fov_override",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_particle_trails",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_point_size",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_z_clip_scale",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "uv1_offset",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(1, 1, 1)",
+      "hint": 5.0,
+      "hint_string": "",
+      "name": "uv1_scale",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "uv1_triplanar",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 4.0,
+      "hint_string": "",
+      "name": "uv1_triplanar_sharpness",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "uv1_world_triplanar",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "uv2_offset",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(1, 1, 1)",
+      "hint": 5.0,
+      "hint_string": "",
+      "name": "uv2_scale",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "uv2_triplanar",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 4.0,
+      "hint_string": "",
+      "name": "uv2_triplanar_sharpness",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "uv2_world_triplanar",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "vertex_color_is_srgb",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "vertex_color_use_as_albedo",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0.01,1.0,0.01",
+      "name": "z_clip_scale",
+      "type": "float",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"ORMMaterial3D\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "resource_local_to_scene": "resource_local_to_scene = true"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "ORMMaterial3D",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"true\",\"name\":\"resource_local_to_scene\"}",
+      "nested_resource=next_pass:Material",
+      "independent_text=user://godot-dev/builtin-verify/resource/orm_material_3d-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/orm_material_3d-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

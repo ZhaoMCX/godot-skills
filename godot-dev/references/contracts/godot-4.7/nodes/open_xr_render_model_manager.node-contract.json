@@ -1,0 +1,338 @@
+{
+  "authoring_mode": "reference_only",
+  "base_contract_hashes": {
+    "godot-4.7:node:Node3D": "7e5e8a9788b6b911d5c34dcf7985b4d7b174d67c3c1e941efd8c7826ea857c06"
+  },
+  "child_constraints": [
+    "具体子节点要求需由官方文档、源码或保存实验补充。"
+  ],
+  "context_requirements": [
+    {
+      "description": "需要活动 OpenXR render model extension。",
+      "id": "open_xr_render_model_manager",
+      "mode": "external"
+    }
+  ],
+  "contract_hash": "de25c8e63e4363a14f7c420402370e501481a386568c9b80ad9dcd226d45efa2",
+  "contract_id": "godot-4.7:node:OpenXRRenderModelManager",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "ClassDB 实例边界已验证；不在缺少所需上下文时触发生命周期副作用。"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_openxrrendermodelmanager.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "ClassDB 4.7.1 OpenXRRenderModelManager"
+    ]
+  },
+  "inheritance_chain": [
+    "OpenXRRenderModelManager",
+    "Node3D",
+    "Node",
+    "Object"
+  ],
+  "kind": "node",
+  "lifecycle_constraints": [
+    "加入 SceneTree 后验证；仅实例化成功不足以证明行为正确。"
+  ],
+  "path_constraints": [
+    {
+      "property": "visibility_parent",
+      "resolution": "scene_tree",
+      "target_type": "GeometryInstance3D"
+    }
+  ],
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Inherit,Always,Disabled",
+      "name": "auto_translate_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 18.0,
+      "hint_string": "",
+      "name": "editor_description",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 3.0,
+      "hint_string": "aim,grip",
+      "name": "make_local_to_pose",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Inherit,On,Off",
+      "name": "physics_interpolation_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Inherit,Pausable,When Paused,Always,Disabled",
+      "name": "process_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_physics_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Inherit,Main Thread,Sub Thread",
+      "name": "process_thread_group",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_thread_group_order",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 6.0,
+      "hint_string": "Process,Physics Process",
+      "name": "process_thread_messages",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Euler,Quaternion,Basis",
+      "name": "rotation_edit_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "XYZ,XZY,YXZ,YZX,ZXY,ZYX",
+      "name": "rotation_order",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "top_level",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Any,None set,Left Hand,Right Hand",
+      "name": "tracker",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "suffix:m",
+      "name": "transform",
+      "type": "Transform3D",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "unique_name_in_owner",
+      "type": "bool",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 26.0,
+      "hint_string": "GeometryInstance3D",
+      "name": "visibility_parent",
+      "type": "NodePath",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "visible",
+      "type": "bool",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tscn-node",
+    "minimal_text": "",
+    "notes": [
+      "需要活动 OpenXR render model extension。"
+    ],
+    "property_text_examples": {}
+  },
+  "signals": [
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_entered_tree"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_exiting_tree"
+    },
+    {
+      "arguments": [],
+      "name": "child_order_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "editor_description_changed"
+    },
+    {
+      "arguments": [],
+      "name": "editor_state_changed"
+    },
+    {
+      "arguments": [],
+      "name": "property_list_changed"
+    },
+    {
+      "arguments": [],
+      "name": "ready"
+    },
+    {
+      "arguments": [],
+      "name": "renamed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "OpenXRRenderModel",
+          "name": "render_model",
+          "type": "Object"
+        }
+      ],
+      "name": "render_model_added"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "OpenXRRenderModel",
+          "name": "render_model",
+          "type": "Object"
+        }
+      ],
+      "name": "render_model_removed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "replacing_by"
+    },
+    {
+      "arguments": [],
+      "name": "script_changed"
+    },
+    {
+      "arguments": [],
+      "name": "tree_entered"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exited"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exiting"
+    },
+    {
+      "arguments": [],
+      "name": "visibility_changed"
+    }
+  ],
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "OpenXRRenderModelManager",
+  "validation": {
+    "independent_text": false,
+    "notes": [
+      "context_reference_boundary=需要活动 OpenXR render model extension。",
+      "concrete_reference_boundary=true",
+      "concrete_reference_boundary=true"
+    ],
+    "save_reload": false
+  }
+}

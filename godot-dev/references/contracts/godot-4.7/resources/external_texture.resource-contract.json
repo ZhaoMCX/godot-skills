@@ -1,0 +1,100 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Texture2D": "f197df078567d361c92a51e393e05d844454dd6722b9f5af7921f1abccaecefb"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "8b2d2d8ac9f210b874e185b7165cda3623291baf30caead208e8110ad4c46057",
+  "contract_id": "godot-4.7:resource:ExternalTexture",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/external_texture-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/external_texture-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_externaltexture.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "ExternalTexture",
+    "Texture2D",
+    "Texture",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(256, 256)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "size",
+      "type": "Vector2",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"ExternalTexture\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "size": "size = Vector2(1.25, 2.5)"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "ExternalTexture",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"Vector2(1.25, 2.5)\",\"name\":\"size\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/external_texture-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/external_texture-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

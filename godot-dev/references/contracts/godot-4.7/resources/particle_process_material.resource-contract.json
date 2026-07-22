@@ -1,0 +1,855 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Material": "78ac476776beb5c29d87486a2c3989631cf4f763da36eb6755c53e158f5fd204"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "989ab0a154f9507c2fe675cd75cef9bc678ccd18312c2d8312fcec94fe0c4476",
+  "contract_id": "godot-4.7:resource:ParticleProcessMaterial",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/particle_process_material-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/particle_process_material-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_particleprocessmaterial.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "ParticleProcessMaterial",
+    "Material",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "alpha_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "angle_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-720,720,0.1,or_less,or_greater,degrees",
+      "name": "angle_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-720,720,0.1,or_less,or_greater,degrees",
+      "name": "angle_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "angular_velocity_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-720,720,0.01,or_less,or_greater",
+      "name": "angular_velocity_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-720,720,0.01,or_less,or_greater",
+      "name": "angular_velocity_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "anim_offset_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.0001",
+      "name": "anim_offset_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.0001",
+      "name": "anim_offset_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "anim_speed_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,16,0.01,or_less,or_greater",
+      "name": "anim_speed_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,16,0.01,or_less,or_greater",
+      "name": "anim_speed_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "attractor_interaction_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Rigid,Hide On Contact",
+      "name": "collision_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "collision_use_scale",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(1, 1, 1, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "GradientTexture1D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "GradientTexture1D",
+      "name": "color_initial_ramp",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "GradientTexture1D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "GradientTexture1D",
+      "name": "color_ramp",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "damping_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,100,0.001,or_greater",
+      "name": "damping_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,100,0.001,or_greater",
+      "name": "damping_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(1, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "direction",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveXYZTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveXYZTexture",
+      "name": "directional_velocity_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "emission_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Point,Sphere,Sphere Surface,Box,Points,Directed Points,Ring",
+      "name": "emission_shape",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "emission_shape_offset",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(1, 1, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "emission_shape_scale",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.001",
+      "name": "flatness",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(0, -9.8, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "gravity",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "hue_variation_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-1,1,0.01",
+      "name": "hue_variation_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-1,1,0.01",
+      "name": "hue_variation_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0.0,1.0,0.001,or_less,or_greater",
+      "name": "inherit_velocity_ratio",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1000,0.01,or_less,or_greater",
+      "name": "initial_velocity_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1000,0.01,or_less,or_greater",
+      "name": "initial_velocity_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "lifetime_randomness",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "linear_accel_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-100,100,0.01,or_less,or_greater",
+      "name": "linear_accel_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-100,100,0.01,or_less,or_greater",
+      "name": "linear_accel_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture,CurveXYZTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture,CurveXYZTexture",
+      "name": "orbit_velocity_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-2,2,0.001,or_less,or_greater",
+      "name": "orbit_velocity_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-2,2,0.001,or_less,or_greater",
+      "name": "orbit_velocity_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "particle_flag_align_y",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "particle_flag_damping_as_friction",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "particle_flag_disable_z",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "particle_flag_inherit_emitter_scale",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "particle_flag_rotate_y",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "radial_accel_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-100,100,0.01,or_less,or_greater",
+      "name": "radial_accel_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-100,100,0.01,or_less,or_greater",
+      "name": "radial_accel_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "radial_velocity_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-1000,1000,0.01,or_less,or_greater",
+      "name": "radial_velocity_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-1000,1000,0.01,or_less,or_greater",
+      "name": "radial_velocity_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "rotation_3d_max",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "rotation_3d_min",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(1, 1, 1)",
+      "hint": 5.0,
+      "hint_string": "",
+      "name": "scale_3d_max",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(1, 1, 1)",
+      "hint": 5.0,
+      "hint_string": "",
+      "name": "scale_3d_min",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture,CurveXYZTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture,CurveXYZTexture",
+      "name": "scale_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,1000,0.01,or_greater",
+      "name": "scale_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,1000,0.01,or_greater",
+      "name": "scale_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture,CurveXYZTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture,CurveXYZTexture",
+      "name": "scale_over_velocity_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1000,0.01,or_greater",
+      "name": "scale_over_velocity_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1000,0.01,or_greater",
+      "name": "scale_over_velocity_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "45.0",
+      "hint": 1.0,
+      "hint_string": "0,180,0.001",
+      "name": "spread",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sub_emitter_keep_velocity",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled:0,Constant:1,At Start:4,At End:2,At Collision:3",
+      "name": "sub_emitter_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "tangential_accel_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-100,100,0.01,or_less,or_greater",
+      "name": "tangential_accel_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-100,100,0.01,or_less,or_greater",
+      "name": "tangential_accel_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "turbulence_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.1",
+      "hint": 1.0,
+      "hint_string": "0,1,0.001",
+      "name": "turbulence_influence_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.1",
+      "hint": 1.0,
+      "hint_string": "0,1,0.001",
+      "name": "turbulence_influence_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "turbulence_influence_over_life",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-100,100,0.1",
+      "name": "turbulence_initial_displacement_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-100,100,0.1",
+      "name": "turbulence_initial_displacement_min",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "9.0",
+      "hint": 1.0,
+      "hint_string": "0,10,0.001,or_greater",
+      "name": "turbulence_noise_scale",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "turbulence_noise_speed",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.2",
+      "hint": 1.0,
+      "hint_string": "0,4,0.01",
+      "name": "turbulence_noise_speed_random",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,20,0.01",
+      "name": "turbulence_noise_strength",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "use_rotation_3d",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "use_rotation_velocity_3d",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_scale_3d",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "CurveTexture",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "CurveTexture",
+      "name": "velocity_limit_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "velocity_pivot",
+      "type": "Vector3",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"ParticleProcessMaterial\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "lifetime_randomness": "lifetime_randomness = 0.5"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "ParticleProcessMaterial",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"0.5\",\"name\":\"lifetime_randomness\"}",
+      "nested_resource=angle_curve:CurveTexture",
+      "independent_text=user://godot-dev/builtin-verify/resource/particle_process_material-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/particle_process_material-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

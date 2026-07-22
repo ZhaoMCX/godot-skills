@@ -1,0 +1,311 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:node:Node3D": "7e5e8a9788b6b911d5c34dcf7985b4d7b174d67c3c1e941efd8c7826ea857c06"
+  },
+  "child_constraints": [
+    "具体子节点要求需由官方文档、源码或保存实验补充。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "fd456339023fa7dc09db6eac40ac7e588cbd35c30131ead9df6447e0ffb83c7a",
+  "contract_id": "godot-4.7:node:SkeletonModifier3D",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/node/skeleton_modifier_3d-minimal.tscn",
+      "user://godot-dev/builtin-verify/node/skeleton_modifier_3d-direct.tscn"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_skeletonmodifier3d.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "SkeletonModifier3D",
+    "Node3D",
+    "Node",
+    "Object"
+  ],
+  "kind": "node",
+  "lifecycle_constraints": [
+    "加入 SceneTree 后验证；仅实例化成功不足以证明行为正确。"
+  ],
+  "path_constraints": [
+    {
+      "property": "visibility_parent",
+      "resolution": "scene_tree",
+      "target_type": "GeometryInstance3D"
+    }
+  ],
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "active",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Always,Disabled",
+      "name": "auto_translate_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 18.0,
+      "hint_string": "",
+      "name": "editor_description",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.001",
+      "name": "influence",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,On,Off",
+      "name": "physics_interpolation_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Pausable,When Paused,Always,Disabled",
+      "name": "process_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_physics_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Main Thread,Sub Thread",
+      "name": "process_thread_group",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Euler,Quaternion,Basis",
+      "name": "rotation_edit_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2",
+      "hint": 2.0,
+      "hint_string": "XYZ,XZY,YXZ,YZX,ZXY,ZYX",
+      "name": "rotation_order",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "top_level",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:m",
+      "name": "transform",
+      "type": "Transform3D",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "unique_name_in_owner",
+      "type": "bool",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "NodePath(\"\")",
+      "hint": 26.0,
+      "hint_string": "GeometryInstance3D",
+      "name": "visibility_parent",
+      "type": "NodePath",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "visible",
+      "type": "bool",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tscn-node",
+    "minimal_text": "[gd_scene format=3]\n\n[node name=\"SkeletonModifier3D\" type=\"SkeletonModifier3D\"]\nunique_name_in_owner = false\nprocess_mode = 0\nprocess_priority = 0\nprocess_physics_priority = 0\nprocess_thread_group = 0\nphysics_interpolation_mode = 0\nauto_translate_mode = 0\neditor_description = \"\"\ntransform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)\nrotation_edit_mode = 0\nrotation_order = 2\ntop_level = false\nvisible = true\nvisibility_parent = NodePath(\"\")\nactive = true\ninfluence = 1.0\nscript = null\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "active": "active = false"
+    }
+  },
+  "signals": [
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_entered_tree"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_exiting_tree"
+    },
+    {
+      "arguments": [],
+      "name": "child_order_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "editor_description_changed"
+    },
+    {
+      "arguments": [],
+      "name": "editor_state_changed"
+    },
+    {
+      "arguments": [],
+      "name": "modification_processed"
+    },
+    {
+      "arguments": [],
+      "name": "property_list_changed"
+    },
+    {
+      "arguments": [],
+      "name": "ready"
+    },
+    {
+      "arguments": [],
+      "name": "renamed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "replacing_by"
+    },
+    {
+      "arguments": [],
+      "name": "script_changed"
+    },
+    {
+      "arguments": [],
+      "name": "tree_entered"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exited"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exiting"
+    },
+    {
+      "arguments": [],
+      "name": "visibility_changed"
+    }
+  ],
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "SkeletonModifier3D",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"false\",\"name\":\"active\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/node/skeleton_modifier_3d-direct.tscn",
+      "independent_text=user://godot-dev/builtin-verify/node/skeleton_modifier_3d-direct.tscn"
+    ],
+    "save_reload": true
+  }
+}

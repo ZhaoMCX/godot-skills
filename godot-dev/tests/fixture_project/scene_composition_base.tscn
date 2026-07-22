@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scene_semantics.gd" id="1_semantics"]
+[ext_resource type="Script" path="res://local_resource.gd" id="2_local"]
+
+[sub_resource type="Resource" id="Resource_local"]
+resource_local_to_scene = true
+script = ExtResource("2_local")
+label = "基础场景局部资源"
+
+[node name="CompositionBase" type="Node"]
+
+[node name="EditableBranch" type="Node" parent="."]
+
+[node name="OwnedChild" type="Node" parent="EditableBranch"]
+unique_name_in_owner = true
+
+[node name="SignalSource" type="Button" parent="."]
+text = "触发"
+
+[node name="SignalTarget" type="Node" parent="."]
+script = ExtResource("1_semantics")
+target_path = NodePath("../EditableBranch/OwnedChild")
+local_data = SubResource("Resource_local")
+
+[node name="NodePathProbe" type="Node" parent="."]
+script = ExtResource("1_semantics")
+target_path = NodePath("../SignalTarget")
+
+[connection signal="pressed" from="SignalSource" to="SignalTarget" method="_on_pressed"]

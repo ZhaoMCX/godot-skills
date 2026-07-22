@@ -1,0 +1,55 @@
+[gd_scene load_steps=4 format=3]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_context"]
+
+[sub_resource type="TileSet" id="TileSet_context"]
+
+[sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_context"]
+
+[node name="RuntimeContexts" type="Node"]
+
+[node name="SkeletonContext" type="Node2D" parent="."]
+
+[node name="Skeleton2D" type="Skeleton2D" parent="SkeletonContext"]
+
+[node name="RootBone" type="Bone2D" parent="SkeletonContext/Skeleton2D"]
+auto_calculate_length_and_angle = false
+rest = Transform2D(1, 0, 0, 1, 0, 0)
+
+[node name="ChildBone" type="Bone2D" parent="SkeletonContext/Skeleton2D/RootBone"]
+position = Vector2(16, 0)
+auto_calculate_length_and_angle = false
+rest = Transform2D(1, 0, 0, 1, 16, 0)
+
+[node name="NavigationContext" type="Node2D" parent="."]
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="NavigationContext"]
+navigation_polygon = SubResource("NavigationPolygon_context")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="NavigationContext"]
+target_position = Vector2(32, 16)
+
+[node name="ViewportContext" type="Node2D" parent="."]
+
+[node name="SubViewport" type="SubViewport" parent="ViewportContext"]
+size = Vector2i(64, 64)
+
+[node name="Camera2D" type="Camera2D" parent="ViewportContext/SubViewport"]
+
+[node name="ViewportConsumer" type="Sprite2D" parent="ViewportContext"]
+
+[node name="TileMapContext" type="Node2D" parent="."]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="TileMapContext"]
+tile_set = SubResource("TileSet_context")
+
+[node name="MultiplayerContext" type="Node" parent="."]
+
+[node name="SpawnRoot" type="Node" parent="MultiplayerContext"]
+
+[node name="MultiplayerSpawner" type="MultiplayerSpawner" parent="MultiplayerContext"]
+spawn_path = NodePath("../SpawnRoot")
+
+[node name="MultiplayerSynchronizer" type="MultiplayerSynchronizer" parent="MultiplayerContext"]
+root_path = NodePath("..")
+replication_config = SubResource("SceneReplicationConfig_context")

@@ -1,0 +1,1267 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:node:Popup": "e305b4eaa756da61fc895543d2ccdfd4a202bae7e019cfaa1eadce648d025798"
+  },
+  "child_constraints": [
+    "具体子节点要求需由官方文档、源码或保存实验补充。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "96440c23078baca135a9ac66a6ef40d2d78fdd1a5fec01deb221251c87a164f2",
+  "contract_id": "godot-4.7:node:PopupMenu",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/node/popup_menu-minimal.tscn",
+      "user://godot-dev/builtin-verify/node/popup_menu-direct.tscn"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_popupmenu.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "PopupMenu",
+    "Popup",
+    "Window",
+    "Viewport",
+    "Node",
+    "Object"
+  ],
+  "kind": "node",
+  "lifecycle_constraints": [
+    "加入 SceneTree 后验证；仅实例化成功不足以证明行为正确。"
+  ],
+  "path_constraints": [],
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "accessibility_description",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "accessibility_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "allow_search",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "always_on_top",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2",
+      "hint": 2.0,
+      "hint_string": "Disabled (Fastest),2× (Faster),4× (Fast),8× (Average),16x (Slow)",
+      "name": "anisotropic_filtering_level",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "audio_listener_enable_2d",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "audio_listener_enable_3d",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Always,Disabled",
+      "name": "auto_translate_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "borderless",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "4294967295",
+      "hint": 7.0,
+      "hint_string": "",
+      "name": "canvas_cull_mask",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "4",
+      "hint": 2.0,
+      "hint_string": "Nearest,Linear,Linear Mipmap,Nearest Mipmap,Inherit",
+      "name": "canvas_item_default_texture_filter",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "3",
+      "hint": 2.0,
+      "hint_string": "Disabled,Enabled,Mirror,Inherit",
+      "name": "canvas_item_default_texture_repeat",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Ignore,Keep,Keep Width,Keep Height,Expand",
+      "name": "content_scale_aspect",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0.5,8.0,0.01",
+      "name": "content_scale_factor",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Canvas Items,Viewport",
+      "name": "content_scale_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2i(0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "content_scale_size",
+      "type": "Vector2i",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Fractional,Integer",
+      "name": "content_scale_stretch",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Unshaded,Lighting,Overdraw,Wireframe,Normal Buffer,VoxelGI Albedo,VoxelGI Lighting,VoxelGI Emission,Shadow Atlas,Directional Shadow Map,Scene Luminance,SSAO,SSIL,Directional Shadow Splits,Decal Atlas,SDFGI Cascades,SDFGI Probes,VoxelGI/SDFGI Buffer,Disable Mesh LOD,OmniLight3D Cluster,SpotLight3D Cluster,Decal Cluster,ReflectionProbe Cluster,Occlusion Culling Buffer,Motion Vectors,Internal Buffer,AreaLight3D Cluster,AreaLight3D Atlas",
+      "name": "debug_draw",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "disable_3d",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 18.0,
+      "hint_string": "",
+      "name": "editor_description",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "exclude_from_capture",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "exclusive",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "extend_to_title",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "force_native",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.2",
+      "hint": 1.0,
+      "hint_string": "0,2,0.01",
+      "name": "fsr_sharpness",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "gui_disable_input",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "10",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "gui_drag_threshold",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "gui_embed_subwindows",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "gui_snap_controls_to_pixels",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "handle_input_locally",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "hdr_output_requested",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "hide_on_checkable_item_selection",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "hide_on_item_selection",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "hide_on_state_item_selection",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Absolute,Center of Primary Screen,Center of Main Window Screen,Center of Other Screen,Center of Screen With Mouse Pointer,Center of Screen With Keyboard Focus",
+      "name": "initial_position",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Items,item_",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "item_count",
+      "type": "int",
+      "usage": 262150.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "keep_title_visible",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2i(0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "max_size",
+      "type": "Vector2i",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "maximize_disabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,1024,0.1",
+      "name": "mesh_lod_threshold",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2i(0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "min_size",
+      "type": "Vector2i",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "minimize_disabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Windowed,Minimized,Maximized,Fullscreen,Exclusive Fullscreen",
+      "name": "mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "mouse_passthrough",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "PackedVector2Array()",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "mouse_passthrough_polygon",
+      "type": "PackedVector2Array",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled (Fastest),2× (Average),4× (Slow),8× (Slowest)",
+      "name": "msaa_2d",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled (Fastest),2× (Average),4× (Slow),8× (Slowest)",
+      "name": "msaa_3d",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Rect2i(0, 0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "nonclient_area",
+      "type": "Rect2i",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "oversampling",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,16,0.0001,or_greater",
+      "name": "oversampling_override",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "own_world_3d",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Inherit,On,Off",
+      "name": "physics_interpolation_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "physics_object_picking",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "physics_object_picking_first_only",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "physics_object_picking_sort",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "popup_window",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "popup_wm_hint",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2i(0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "position",
+      "type": "Vector2i",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "positional_shadow_atlas_16_bits",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2",
+      "hint": 2.0,
+      "hint_string": "Disabled,1 Shadow,4 Shadows,16 Shadows,64 Shadows,256 Shadows,1024 Shadows",
+      "name": "positional_shadow_atlas_quad_0",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2",
+      "hint": 2.0,
+      "hint_string": "Disabled,1 Shadow,4 Shadows,16 Shadows,64 Shadows,256 Shadows,1024 Shadows",
+      "name": "positional_shadow_atlas_quad_1",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "3",
+      "hint": 2.0,
+      "hint_string": "Disabled,1 Shadow,4 Shadows,16 Shadows,64 Shadows,256 Shadows,1024 Shadows",
+      "name": "positional_shadow_atlas_quad_2",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "4",
+      "hint": 2.0,
+      "hint_string": "Disabled,1 Shadow,4 Shadows,16 Shadows,64 Shadows,256 Shadows,1024 Shadows",
+      "name": "positional_shadow_atlas_quad_3",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2048",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "positional_shadow_atlas_size",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "prefer_native_menu",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Pausable,When Paused,Always,Disabled",
+      "name": "process_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_physics_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Main Thread,Sub Thread",
+      "name": "process_thread_group",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Nearest (Fastest):5,Bilinear (Fastest):0,FSR 1.0 (Fast):1,FSR 2.2 (Slow):2,MetalFX (Spatial - Fast):3,MetalFX (Temporal - Slow):4",
+      "name": "scaling_3d_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0.1,2.0,0.0001",
+      "name": "scaling_3d_scale",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled (Fastest),FXAA (Fast),SMAA (Average)",
+      "name": "screen_space_aa",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "100%,120%,150%,200%",
+      "name": "sdf_oversize",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "100%,50%,25%",
+      "name": "sdf_scale",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 42.0,
+      "hint_string": "",
+      "name": "search_bar_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "search_bar_fuzzy_search_enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2",
+      "hint": 1.0,
+      "hint_string": "0,2,1,or_greater",
+      "name": "search_bar_fuzzy_search_max_misses",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,20,1,or_greater",
+      "name": "search_bar_min_item_count",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sharp_corners",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "shrink_height",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "shrink_width",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2i(100, 100)",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "size",
+      "type": "Vector2i",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "snap_2d_transforms_to_pixel",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "snap_2d_vertices_to_pixel",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.2",
+      "hint": 0.0,
+      "hint_string": "suffix:s",
+      "name": "submenu_popup_delay",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "None:0,Application Menu:2,Window Menu:3,Help Menu:4,Dock:5",
+      "name": "system_menu_id",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-2,2,0.001",
+      "name": "texture_mipmap_bias",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Theme",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Theme",
+      "name": "theme",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "&\"\"",
+      "hint": 3.0,
+      "hint_string": "",
+      "name": "theme_type_variation",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "title",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "transient",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "transient_to_focused",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "transparent",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "transparent_bg",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "unfocusable",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "unique_name_in_owner",
+      "type": "bool",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "unresizable",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_debanding",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_hdr_2d",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_occlusion_culling",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_taa",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_xr",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "visible",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Texture,XR",
+      "name": "vrs_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "vrs_texture",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Disabled,Once,Always",
+      "name": "vrs_update_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "World3D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "World3D",
+      "name": "world_3d",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "wrap_controls",
+      "type": "bool",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tscn-node",
+    "minimal_text": "[gd_scene format=3]\n\n[node name=\"PopupMenu\" type=\"PopupMenu\"]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "hide_on_item_selection": "hide_on_item_selection = false"
+    }
+  },
+  "signals": [
+    {
+      "arguments": [],
+      "name": "about_to_popup"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_entered_tree"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_exiting_tree"
+    },
+    {
+      "arguments": [],
+      "name": "child_order_changed"
+    },
+    {
+      "arguments": [],
+      "name": "close_requested"
+    },
+    {
+      "arguments": [],
+      "name": "dpi_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "editor_description_changed"
+    },
+    {
+      "arguments": [],
+      "name": "editor_state_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "",
+          "name": "files",
+          "type": "PackedStringArray"
+        }
+      ],
+      "name": "files_dropped"
+    },
+    {
+      "arguments": [],
+      "name": "focus_entered"
+    },
+    {
+      "arguments": [],
+      "name": "focus_exited"
+    },
+    {
+      "arguments": [],
+      "name": "go_back_requested"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Control",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "gui_focus_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "",
+          "name": "id",
+          "type": "int"
+        }
+      ],
+      "name": "id_focused"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "",
+          "name": "id",
+          "type": "int"
+        }
+      ],
+      "name": "id_pressed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "",
+          "name": "index",
+          "type": "int"
+        }
+      ],
+      "name": "index_pressed"
+    },
+    {
+      "arguments": [],
+      "name": "menu_changed"
+    },
+    {
+      "arguments": [],
+      "name": "mouse_entered"
+    },
+    {
+      "arguments": [],
+      "name": "mouse_exited"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "InputEvent",
+          "name": "event",
+          "type": "Object"
+        }
+      ],
+      "name": "nonclient_window_input"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "",
+          "name": "output_max_linear_value",
+          "type": "float"
+        }
+      ],
+      "name": "output_max_linear_value_changed"
+    },
+    {
+      "arguments": [],
+      "name": "popup_hide"
+    },
+    {
+      "arguments": [],
+      "name": "property_list_changed"
+    },
+    {
+      "arguments": [],
+      "name": "ready"
+    },
+    {
+      "arguments": [],
+      "name": "renamed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "replacing_by"
+    },
+    {
+      "arguments": [],
+      "name": "script_changed"
+    },
+    {
+      "arguments": [],
+      "name": "size_changed"
+    },
+    {
+      "arguments": [],
+      "name": "theme_changed"
+    },
+    {
+      "arguments": [],
+      "name": "title_changed"
+    },
+    {
+      "arguments": [],
+      "name": "titlebar_changed"
+    },
+    {
+      "arguments": [],
+      "name": "tree_entered"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exited"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exiting"
+    },
+    {
+      "arguments": [],
+      "name": "visibility_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "InputEvent",
+          "name": "event",
+          "type": "Object"
+        }
+      ],
+      "name": "window_input"
+    }
+  ],
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "PopupMenu",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"false\",\"name\":\"hide_on_item_selection\"}",
+      "nested_resource=world_3d:World3D",
+      "independent_text=user://godot-dev/builtin-verify/node/popup_menu-direct.tscn",
+      "independent_text=user://godot-dev/builtin-verify/node/popup_menu-direct.tscn"
+    ],
+    "save_reload": true
+  }
+}

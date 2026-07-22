@@ -1,0 +1,177 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:AnimationRootNode": "7f130fba1176a8b20fca4b1b1029dfa8a17e62b58ce6b33460f506e13d915d02"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "9f285e4325868e14679fb4478f3d4ba417931e7849827a5c5bdfd73ad3002a93",
+  "contract_id": "godot-4.7:resource:AnimationNodeStateMachine",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/animation_node_state_machine-minimal.tres",
+      "tests/fixture_project/animation_tree_state_machine.tres",
+      "user://godot-dev/builtin-verify/resource/animation_node_state_machine-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_animationnodestatemachine.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "AnimationNodeStateMachine",
+    "AnimationRootNode",
+    "AnimationNode",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "allow_transition_to_self",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "graph_offset",
+      "type": "Vector2",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "reset_ends",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Root,Nested,Grouped",
+      "name": "state_machine_type",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "AnimationNode",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "AnimationNode",
+      "name": "states/End/node",
+      "type": "Object",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(900, 100)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "states/End/position",
+      "type": "Vector2",
+      "usage": 2.0
+    },
+    {
+      "class_name": "AnimationNode",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "AnimationNode",
+      "name": "states/Start/node",
+      "type": "Object",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(200, 100)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "states/Start/position",
+      "type": "Vector2",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "[]",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "transitions",
+      "type": "Array",
+      "usage": 2.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"AnimationNodeStateMachine\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。",
+      "每条 transitions 记录依次为 from、to、AnimationNodeStateMachineTransition 子资源。"
+    ],
+    "property_text_examples": {
+      "state_machine_type": "state_machine_type = 1",
+      "states/<name>/node": "states/idle/node = SubResource(\"AnimationNodeAnimation_idle\")",
+      "states/<name>/position": "states/idle/position = Vector2(240, 100)",
+      "transitions": "transitions = [&\"idle\", &\"run\", SubResource(\"Transition_idle_run\")]"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "AnimationNodeStateMachine",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"1\",\"name\":\"state_machine_type\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/animation_node_state_machine-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/animation_node_state_machine-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:AudioStream": "24adaa96f37fc22643ffbf6bf421a44dfa6dc232caae3a2ed10b1514ed79b1eb"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "326e4d9a78939a08e8decfebd5caf7c929d867fdd7837b340a2232fc1c9ff7c6",
+  "contract_id": "godot-4.7:resource:AudioStreamPlaylist",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/audio_stream_playlist-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/audio_stream_playlist-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_audiostreamplaylist.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "AudioStreamPlaylist",
+    "AudioStream",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "0.3",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01,suffix:s",
+      "name": "fade_time",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "loop",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "shuffle",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Streams,stream_,unfoldable,page_size=999,add_button_text=Add Stream",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,64",
+      "name": "stream_count",
+      "type": "int",
+      "usage": 262150.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"AudioStreamPlaylist\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "shuffle": "shuffle = true"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "AudioStreamPlaylist",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"true\",\"name\":\"shuffle\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/audio_stream_playlist-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/audio_stream_playlist-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

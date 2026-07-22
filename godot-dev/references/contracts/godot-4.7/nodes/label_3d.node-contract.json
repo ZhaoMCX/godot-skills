@@ -1,0 +1,750 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:node:GeometryInstance3D": "a0028b52fc5b6a2656b1f4182fef008e4b8eeb59f7d5136c8c1da27cc33e0c05"
+  },
+  "child_constraints": [
+    "具体子节点要求需由官方文档、源码或保存实验补充。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "0f2c374e49d3db08ed3d318035cb86503e2da1f045a304365faceb065bfa052a",
+  "contract_id": "godot-4.7:node:Label3D",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/node/label_3d-minimal.tscn",
+      "user://godot-dev/builtin-verify/node/label_3d-direct.tscn"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_label3d.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "Label3D",
+    "GeometryInstance3D",
+    "VisualInstance3D",
+    "Node3D",
+    "Node",
+    "Object"
+  ],
+  "kind": "node",
+  "lifecycle_constraints": [
+    "加入 SceneTree 后验证；仅实例化成功不足以证明行为正确。"
+  ],
+  "path_constraints": [
+    {
+      "property": "visibility_parent",
+      "resolution": "scene_tree",
+      "target_type": "GeometryInstance3D"
+    }
+  ],
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "alpha_antialiasing_edge",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Alpha Edge Blend,Alpha Edge Clip",
+      "name": "alpha_antialiasing_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Discard,Opaque Pre-Pass,Alpha Hash",
+      "name": "alpha_cut",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,2,0.01",
+      "name": "alpha_hash_scale",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.5",
+      "hint": 1.0,
+      "hint_string": "0,1,0.001",
+      "name": "alpha_scissor_threshold",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Always,Disabled",
+      "name": "auto_translate_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Off,Arbitrary,Word,Word (Smart)",
+      "name": "autowrap_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "192",
+      "hint": 6.0,
+      "hint_string": "Trim Spaces After Break:64,Trim Spaces Before Break:128",
+      "name": "autowrap_trim_flags",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Enabled,Y-Billboard",
+      "name": "billboard",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Off,On,Double-Sided,Shadows Only",
+      "name": "cast_shadow",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "AABB(0, 0, 0, 0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:m",
+      "name": "custom_aabb",
+      "type": "AABB",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "double_sided",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 18.0,
+      "hint_string": "",
+      "name": "editor_description",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,16384,0.01,suffix:m",
+      "name": "extra_cull_margin",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "fixed_size",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Font",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Font",
+      "name": "font",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "32",
+      "hint": 1.0,
+      "hint_string": "1,256,1,or_greater,suffix:px",
+      "name": "font_size",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0.01,10,0.0001,or_greater",
+      "name": "gi_lightmap_texel_scale",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Static,Dynamic",
+      "name": "gi_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Left,Center,Right,Fill",
+      "name": "horizontal_alignment",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "ignore_occlusion_culling",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "163",
+      "hint": 6.0,
+      "hint_string": "Kashida Justification:1,Word Justification:2,Justify Only After Last Tab:8,Skip Last Line:32,Skip Last Line With Visible Characters:64,Do Not Skip Single Line:128",
+      "name": "justification_flags",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 32.0,
+      "hint_string": "",
+      "name": "language",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 10.0,
+      "hint_string": "",
+      "name": "layers",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "line_spacing",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0.001,128,0.001",
+      "name": "lod_bias",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "BaseMaterial3D,ShaderMaterial",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "BaseMaterial3D,ShaderMaterial",
+      "name": "material_overlay",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "BaseMaterial3D,ShaderMaterial",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "BaseMaterial3D,ShaderMaterial",
+      "name": "material_override",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(1, 1, 1, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "modulate",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "no_depth_test",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "offset",
+      "type": "Vector2",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0, 0, 0, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "outline_modulate",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1",
+      "hint": 1.0,
+      "hint_string": "-128,127,1",
+      "name": "outline_render_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "12",
+      "hint": 1.0,
+      "hint_string": "0,127,1,suffix:px",
+      "name": "outline_size",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,On,Off",
+      "name": "physics_interpolation_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.005",
+      "hint": 1.0,
+      "hint_string": "0.0001,128,0.0001,suffix:m",
+      "name": "pixel_size",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Pausable,When Paused,Always,Disabled",
+      "name": "process_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_physics_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Main Thread,Sub Thread",
+      "name": "process_thread_group",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "-128,127,1",
+      "name": "render_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Euler,Quaternion,Basis",
+      "name": "rotation_edit_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2",
+      "hint": 2.0,
+      "hint_string": "XYZ,XZY,YXZ,YZX,ZXY,ZYX",
+      "name": "rotation_order",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "shaded",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sorting_offset",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sorting_use_aabb_center",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Default,URI,File,Email,List,None,Custom",
+      "name": "structured_text_bidi_override",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "[]",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "structured_text_bidi_override_options",
+      "type": "Array",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 18.0,
+      "hint_string": "",
+      "name": "text",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Auto,Left-to-Right,Right-to-Left",
+      "name": "text_direction",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "3",
+      "hint": 2.0,
+      "hint_string": "Nearest,Linear,Nearest Mipmap,Linear Mipmap,Nearest Mipmap Anisotropic,Linear Mipmap Anisotropic",
+      "name": "texture_filter",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "top_level",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:m",
+      "name": "transform",
+      "type": "Transform3D",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0.0,1.0,0.01",
+      "name": "transparency",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "unique_name_in_owner",
+      "type": "bool",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "uppercase",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Top,Center,Bottom",
+      "name": "vertical_alignment",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "NodePath(\"\")",
+      "hint": 26.0,
+      "hint_string": "GeometryInstance3D",
+      "name": "visibility_parent",
+      "type": "NodePath",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0.0,4096.0,0.01,or_greater,suffix:m",
+      "name": "visibility_range_begin",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0.0,4096.0,0.01,or_greater,suffix:m",
+      "name": "visibility_range_begin_margin",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0.0,4096.0,0.01,or_greater,suffix:m",
+      "name": "visibility_range_end",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0.0,4096.0,0.01,or_greater,suffix:m",
+      "name": "visibility_range_end_margin",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Disabled,Self,Dependencies",
+      "name": "visibility_range_fade_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "visible",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "500.0",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "width",
+      "type": "float",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tscn-node",
+    "minimal_text": "[gd_scene format=3]\n\n[node name=\"Label3D\" type=\"Label3D\"]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "pixel_size": "pixel_size = 0.505"
+    }
+  },
+  "signals": [
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_entered_tree"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_exiting_tree"
+    },
+    {
+      "arguments": [],
+      "name": "child_order_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "editor_description_changed"
+    },
+    {
+      "arguments": [],
+      "name": "editor_state_changed"
+    },
+    {
+      "arguments": [],
+      "name": "property_list_changed"
+    },
+    {
+      "arguments": [],
+      "name": "ready"
+    },
+    {
+      "arguments": [],
+      "name": "renamed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "replacing_by"
+    },
+    {
+      "arguments": [],
+      "name": "script_changed"
+    },
+    {
+      "arguments": [],
+      "name": "tree_entered"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exited"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exiting"
+    },
+    {
+      "arguments": [],
+      "name": "visibility_changed"
+    }
+  ],
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "Label3D",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"0.505\",\"name\":\"pixel_size\"}",
+      "nested_resource=font:FontFile",
+      "independent_text=user://godot-dev/builtin-verify/node/label_3d-direct.tscn",
+      "independent_text=user://godot-dev/builtin-verify/node/label_3d-direct.tscn"
+    ],
+    "save_reload": true
+  }
+}

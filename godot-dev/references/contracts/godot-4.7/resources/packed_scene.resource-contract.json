@@ -1,0 +1,89 @@
+{
+  "authoring_mode": "resource_saver_only",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Resource": "a98273d2046d3145be02fc5956a4882eb948bb79b8f8bdea13fddf4febaab3e9"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [
+    {
+      "description": "通过有 owner 的节点树和 PackedScene.pack() 生成。",
+      "id": "packed_scene_owner_tree",
+      "mode": "local"
+    }
+  ],
+  "contract_hash": "b2d4f26a8bbf6cf9e9a45f18939ce56cd2f0ba46971f66842c1a76c1a62a5cca",
+  "contract_id": "godot-4.7:resource:PackedScene",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/packed_scene-minimal.tscn"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_packedscene.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "ClassDB 4.7.1 PackedScene"
+    ]
+  },
+  "inheritance_chain": [
+    "PackedScene",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "",
+    "notes": [
+      "PackedScene 的文本载体是 .tscn，不作为 .tres 从零手写；通过 PackedScene.pack 与 ResourceSaver 生成。内部 _bundled 含非确定 node_ids，不作为可编辑属性写入契约。"
+    ],
+    "property_text_examples": {}
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "PackedScene",
+  "validation": {
+    "independent_text": false,
+    "notes": [
+      "packed_scene_tscn=user://godot-dev/builtin-derive/resource/packed_scene-minimal.tscn"
+    ],
+    "save_reload": true
+  }
+}

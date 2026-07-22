@@ -1,0 +1,333 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:StyleBox": "8feca8b588a5a821b70320e49d2b0c13cd5d82ca75e22767a4c66d36d7214f1c"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "5583332a4a3239c71f1a5d64b2ee60b371050d51b7c71110fba2d10db95de81d",
+  "contract_id": "godot-4.7:resource:StyleBoxFlat",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/style_box_flat-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/style_box_flat-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_styleboxflat.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "StyleBoxFlat",
+    "StyleBox",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "anti_aliasing",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0.01,10,0.001,suffix:px",
+      "name": "anti_aliasing_size",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.6, 0.6, 0.6, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "bg_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "border_blend",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.8, 0.8, 0.8, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "border_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "border_width_bottom",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "border_width_left",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "border_width_right",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "border_width_top",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1.0",
+      "hint": 1.0,
+      "hint_string": "-1,2048,1,suffix:px",
+      "name": "content_margin_bottom",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1.0",
+      "hint": 1.0,
+      "hint_string": "-1,2048,1,suffix:px",
+      "name": "content_margin_left",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1.0",
+      "hint": 1.0,
+      "hint_string": "-1,2048,1,suffix:px",
+      "name": "content_margin_right",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1.0",
+      "hint": 1.0,
+      "hint_string": "-1,2048,1,suffix:px",
+      "name": "content_margin_top",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "8",
+      "hint": 1.0,
+      "hint_string": "1,20,1",
+      "name": "corner_detail",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "corner_radius_bottom_left",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "corner_radius_bottom_right",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "corner_radius_top_left",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "corner_radius_top_right",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "draw_center",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "expand_margin_bottom",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "expand_margin_left",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "expand_margin_right",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "expand_margin_top",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0, 0, 0, 0.6)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "shadow_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:px",
+      "name": "shadow_offset",
+      "type": "Vector2",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0,100,1,or_greater,suffix:px",
+      "name": "shadow_size",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2(0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "skew",
+      "type": "Vector2",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"StyleBoxFlat\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "bg_color": "bg_color = Color(0.25, 0.5, 0.75, 1)"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "StyleBoxFlat",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"Color(0.25, 0.5, 0.75, 1)\",\"name\":\"bg_color\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/style_box_flat-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/style_box_flat-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:GLTFDocument": "173c681983065b8855ec04749908346cc56aedc9d353cd9f1afe16ff9f4868b4"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "02a7c8ecdf1b65e7ada4e454ed809336254ba0f1603ffcaafb7f12a2e2a3db26",
+  "contract_id": "godot-4.7:resource:FBXDocument",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/fbx_document-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/fbx_document-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_fbxdocument.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "FBXDocument",
+    "GLTFDocument",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "\"None\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "fallback_image_format",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.25",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "fallback_image_quality",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"PNG\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "image_format",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.75",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "lossy_quality",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "root_node_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "texture_map_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "visibility_mode",
+      "type": "int",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"FBXDocument\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "resource_local_to_scene": "resource_local_to_scene = true"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "FBXDocument",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"true\",\"name\":\"resource_local_to_scene\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/fbx_document-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/fbx_document-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

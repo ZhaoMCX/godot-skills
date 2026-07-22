@@ -1,0 +1,171 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Resource": "a98273d2046d3145be02fc5956a4882eb948bb79b8f8bdea13fddf4febaab3e9"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "9d5020a622b93ee0b068fef83c5a7abb63c869bb5f5d42701ad90d3c70e16089",
+  "contract_id": "godot-4.7:resource:AnimationNodeStateMachineTransition",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/animation_node_state_machine_transition-minimal.tres",
+      "tests/fixture_project/animation_tree_state_machine.tres",
+      "user://godot-dev/builtin-verify/resource/animation_node_state_machine_transition-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_animationnodestatemachinetransition.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "AnimationNodeStateMachineTransition",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "&\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "advance_condition",
+      "type": "StringName",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 19.0,
+      "hint_string": "",
+      "name": "advance_expression",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Disabled,Enabled,Auto",
+      "name": "advance_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "break_loop_at_end",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 1.0,
+      "hint_string": "0,32,1",
+      "name": "priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "reset",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Immediate,Sync,At End",
+      "name": "switch_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Curve",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Curve",
+      "name": "xfade_curve",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "0,240,0.01,suffix:s",
+      "name": "xfade_time",
+      "type": "float",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"AnimationNodeStateMachineTransition\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "xfade_time": "xfade_time = 0.5"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "AnimationNodeStateMachineTransition",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"0.5\",\"name\":\"xfade_time\"}",
+      "nested_resource=xfade_curve:Curve",
+      "independent_text=user://godot-dev/builtin-verify/resource/animation_node_state_machine_transition-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/animation_node_state_machine_transition-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

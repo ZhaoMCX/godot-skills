@@ -1,0 +1,152 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Resource": "a98273d2046d3145be02fc5956a4882eb948bb79b8f8bdea13fddf4febaab3e9"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "fa3dfb90eeacdaeb81ad3c898566458a5d80f249bae114761c3e3267a891e4e9",
+  "contract_id": "godot-4.7:resource:GLTFPhysicsShape",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/gltf_physics_shape-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/gltf_physics_shape-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_gltfphysicsshape.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "GLTFPhysicsShape",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "2.0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "height",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "ImporterMesh",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "ImporterMesh",
+      "name": "importer_mesh",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "is_trigger",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "mesh_index",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.5",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "radius",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "shape_type",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(1, 1, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "size",
+      "type": "Vector3",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"GLTFPhysicsShape\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "size": "size = Vector3(1.25, 2.5, 3.75)"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "GLTFPhysicsShape",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"Vector3(1.25, 2.5, 3.75)\",\"name\":\"size\"}",
+      "nested_resource=importer_mesh:ImporterMesh",
+      "independent_text=user://godot-dev/builtin-verify/resource/gltf_physics_shape-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/gltf_physics_shape-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

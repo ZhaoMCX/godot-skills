@@ -1,0 +1,215 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Resource": "a98273d2046d3145be02fc5956a4882eb948bb79b8f8bdea13fddf4febaab3e9"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "352483ff2b6f0ff273be0753a5b7aa06838e1a815100cb2f5b1cf8bce3e6cae8",
+  "contract_id": "godot-4.7:resource:GLTFAccessor",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/gltf_accessor-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/gltf_accessor-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_gltfaccessor.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "GLTFAccessor",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "accessor_type",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-1",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "buffer_view",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "byte_offset",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "component_type",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "count",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "PackedFloat64Array()",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "max",
+      "type": "PackedFloat64Array",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "PackedFloat64Array()",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "min",
+      "type": "PackedFloat64Array",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "normalized",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sparse_count",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sparse_indices_buffer_view",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sparse_indices_byte_offset",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sparse_indices_component_type",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sparse_values_buffer_view",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sparse_values_byte_offset",
+      "type": "int",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"GLTFAccessor\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "buffer_view": "buffer_view = 0"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "GLTFAccessor",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"0\",\"name\":\"buffer_view\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/gltf_accessor-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/gltf_accessor-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

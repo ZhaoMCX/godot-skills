@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Change Tree"
+  short_description: "用对齐的文件树与场景树设计并核验 Godot 结构变化"
+  default_prompt: "使用 $godot-change-tree 设计或核验本次 Godot 文件、场景与动态节点结构，只列变更项和必要直接依赖，并对齐同行标签注释。"

@@ -1,0 +1,172 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Texture3D": "66aff785aa98dcc3256bc99ed0a0b551b85c9cbe5059bd92bfc5b7392a6d0f58"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "c2089175603943201d993621c47563a21720d2aad7a8730582191cbb482be64d",
+  "contract_id": "godot-4.7:resource:NoiseTexture3D",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/noise_texture_3d-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/noise_texture_3d-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_noisetexture3d.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "NoiseTexture3D",
+    "Texture3D",
+    "Texture",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "Gradient",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Gradient",
+      "name": "color_ramp",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "64",
+      "hint": 1.0,
+      "hint_string": "1,2048,1,or_greater,suffix:px",
+      "name": "depth",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "64",
+      "hint": 1.0,
+      "hint_string": "1,2048,1,or_greater,suffix:px",
+      "name": "height",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "invert",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Noise",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Noise",
+      "name": "noise",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "normalize",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "seamless",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.1",
+      "hint": 1.0,
+      "hint_string": "0.05,1,0.001",
+      "name": "seamless_blend_skirt",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "64",
+      "hint": 1.0,
+      "hint_string": "1,2048,1,or_greater,suffix:px",
+      "name": "width",
+      "type": "int",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"NoiseTexture3D\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "width": "width = 65"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "NoiseTexture3D",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"65\",\"name\":\"width\"}",
+      "nested_resource=noise:FastNoiseLite",
+      "independent_text=user://godot-dev/builtin-verify/resource/noise_texture_3d-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/noise_texture_3d-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

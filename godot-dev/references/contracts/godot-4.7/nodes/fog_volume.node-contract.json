@@ -1,0 +1,326 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:node:VisualInstance3D": "0b93aa3483f6c9fe20f8ac43abfe60fa26736dd2df7836960e03b9f5a2da305a"
+  },
+  "child_constraints": [
+    "具体子节点要求需由官方文档、源码或保存实验补充。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "8f06ed7fd3dfe353aeb44903369ae720057187da559ba6ac754b0b945a406470",
+  "contract_id": "godot-4.7:node:FogVolume",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/node/fog_volume-minimal.tscn",
+      "user://godot-dev/builtin-verify/node/fog_volume-direct.tscn"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_fogvolume.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "FogVolume",
+    "VisualInstance3D",
+    "Node3D",
+    "Node",
+    "Object"
+  ],
+  "kind": "node",
+  "lifecycle_constraints": [
+    "加入 SceneTree 后验证；仅实例化成功不足以证明行为正确。"
+  ],
+  "path_constraints": [
+    {
+      "property": "visibility_parent",
+      "resolution": "scene_tree",
+      "target_type": "GeometryInstance3D"
+    }
+  ],
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Always,Disabled",
+      "name": "auto_translate_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 18.0,
+      "hint_string": "",
+      "name": "editor_description",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 10.0,
+      "hint_string": "",
+      "name": "layers",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "FogMaterial,ShaderMaterial",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "FogMaterial,ShaderMaterial",
+      "name": "material",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,On,Off",
+      "name": "physics_interpolation_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Pausable,When Paused,Always,Disabled",
+      "name": "process_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_physics_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Inherit,Main Thread,Sub Thread",
+      "name": "process_thread_group",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "Euler,Quaternion,Basis",
+      "name": "rotation_edit_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2",
+      "hint": 2.0,
+      "hint_string": "XYZ,XZY,YXZ,YZX,ZXY,ZYX",
+      "name": "rotation_order",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "3",
+      "hint": 2.0,
+      "hint_string": "Ellipsoid (Local),Cone (Local),Cylinder (Local),Box (Local),World (Global)",
+      "name": "shape",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector3(2, 2, 2)",
+      "hint": 1.0,
+      "hint_string": "0.01,1024,0.01,or_greater,suffix:m",
+      "name": "size",
+      "type": "Vector3",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "top_level",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)",
+      "hint": 0.0,
+      "hint_string": "suffix:m",
+      "name": "transform",
+      "type": "Transform3D",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "unique_name_in_owner",
+      "type": "bool",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "NodePath(\"\")",
+      "hint": 26.0,
+      "hint_string": "GeometryInstance3D",
+      "name": "visibility_parent",
+      "type": "NodePath",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "visible",
+      "type": "bool",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tscn-node",
+    "minimal_text": "[gd_scene format=3]\n\n[node name=\"FogVolume\" type=\"FogVolume\"]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "size": "size = Vector3(1.25, 2.5, 3.75)"
+    }
+  },
+  "signals": [
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_entered_tree"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_exiting_tree"
+    },
+    {
+      "arguments": [],
+      "name": "child_order_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "editor_description_changed"
+    },
+    {
+      "arguments": [],
+      "name": "editor_state_changed"
+    },
+    {
+      "arguments": [],
+      "name": "property_list_changed"
+    },
+    {
+      "arguments": [],
+      "name": "ready"
+    },
+    {
+      "arguments": [],
+      "name": "renamed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "replacing_by"
+    },
+    {
+      "arguments": [],
+      "name": "script_changed"
+    },
+    {
+      "arguments": [],
+      "name": "tree_entered"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exited"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exiting"
+    },
+    {
+      "arguments": [],
+      "name": "visibility_changed"
+    }
+  ],
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "FogVolume",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"Vector3(1.25, 2.5, 3.75)\",\"name\":\"size\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/node/fog_volume-direct.tscn",
+      "independent_text=user://godot-dev/builtin-verify/node/fog_volume-direct.tscn"
+    ],
+    "save_reload": true
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "authoring_mode": "reference_only",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Resource": "a98273d2046d3145be02fc5956a4882eb948bb79b8f8bdea13fddf4febaab3e9"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "8a6f99ca264ec68a562c85b479897a9e9f92d23db723fb81219fa32aced754bf",
+  "contract_id": "godot-4.7:resource:Shape2D",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "具体子类见证：CapsuleShape2D"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_shape2d.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "ClassDB 4.7.1 Shape2D：存在、不可实例化。"
+    ]
+  },
+  "inheritance_chain": [
+    "Shape2D",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 1.0,
+      "hint_string": "0,1,0.001",
+      "name": "custom_solver_bias",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "",
+    "notes": [
+      "ClassDB 明确不可实例化；通过具体子类验证继承和引用边界。"
+    ],
+    "property_text_examples": {}
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "reference_only",
+  "type_name": "Shape2D",
+  "validation": {
+    "independent_text": false,
+    "notes": [
+      "reference_validation={\"can_instantiate\":false,\"class_exists\":true,\"witness\":\"CapsuleShape2D\",\"witness_inherits\":true}"
+    ],
+    "save_reload": false
+  }
+}

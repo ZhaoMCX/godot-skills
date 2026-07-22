@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "validation-profile.schema.json",
+  "title": "Godot Dev Validation Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "run_main": { "type": "boolean" },
+    "scene_roots": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "render_cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["scene"],
+        "properties": {
+          "scene": { "type": "string", "minLength": 1 },
+          "output": { "type": "string" },
+          "frames": { "type": "integer" },
+          "required": { "type": "boolean" }
+        }
+      }
+    },
+    "export_presets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "required": { "type": "boolean" }
+        }
+      }
+    },
+    "budgets": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "max_nodes": { "type": "integer" },
+        "max_depth": { "type": "integer" },
+        "max_external_resources": { "type": "integer" },
+        "max_sub_resources": { "type": "integer" },
+        "max_instantiation_usec": { "type": "integer" }
+      }
+    }
+  }
+}

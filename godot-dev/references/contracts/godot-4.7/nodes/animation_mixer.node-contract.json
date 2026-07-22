@@ -1,0 +1,368 @@
+{
+  "authoring_mode": "reference_only",
+  "base_contract_hashes": {
+    "godot-4.7:node:Node": "ea22211c95383df728f78b7e413451632d49f4f9a50bfe8a99f21079ddac4f63"
+  },
+  "child_constraints": [
+    "具体子节点要求需由官方文档、源码或保存实验补充。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "2556609f20da3b1deae384e17a0ee69881ceb7a2870c945fa8d7f60e0a5db246",
+  "contract_id": "godot-4.7:node:AnimationMixer",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "具体子类见证：AnimationPlayer"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_animationmixer.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "ClassDB 4.7.1 AnimationMixer：存在、不可实例化。"
+    ]
+  },
+  "inheritance_chain": [
+    "AnimationMixer",
+    "Node",
+    "Object"
+  ],
+  "kind": "node",
+  "lifecycle_constraints": [
+    "加入 SceneTree 后验证；仅实例化成功不足以证明行为正确。"
+  ],
+  "path_constraints": [
+    {
+      "property": "root_motion_track",
+      "resolution": "scene_tree",
+      "target_type": ""
+    },
+    {
+      "property": "root_node",
+      "resolution": "scene_tree",
+      "target_type": ""
+    }
+  ],
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "active",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 1.0,
+      "hint_string": "1,127,1",
+      "name": "audio_max_polyphony",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Inherit,Always,Disabled",
+      "name": "auto_translate_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Dominant,Recessive,Force Continuous",
+      "name": "callback_mode_discrete",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Deferred,Immediate",
+      "name": "callback_mode_method",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Physics,Idle,Manual",
+      "name": "callback_mode_process",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "deterministic",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 18.0,
+      "hint_string": "",
+      "name": "editor_description",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Inherit,On,Off",
+      "name": "physics_interpolation_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Inherit,Pausable,When Paused,Always,Disabled",
+      "name": "process_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_physics_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_priority",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Inherit,Main Thread,Sub Thread",
+      "name": "process_thread_group",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "process_thread_group_order",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 6.0,
+      "hint_string": "Process,Physics Process",
+      "name": "process_thread_messages",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "reset_on_save",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "root_motion_local",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "root_motion_track",
+      "type": "NodePath",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "root_node",
+      "type": "NodePath",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "unique_name_in_owner",
+      "type": "bool",
+      "usage": 2.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tscn-node",
+    "minimal_text": "",
+    "notes": [
+      "ClassDB 明确不可实例化；通过具体子类验证继承和引用边界。"
+    ],
+    "property_text_examples": {}
+  },
+  "signals": [
+    {
+      "arguments": [
+        {
+          "class_name": "",
+          "name": "anim_name",
+          "type": "StringName"
+        }
+      ],
+      "name": "animation_finished"
+    },
+    {
+      "arguments": [],
+      "name": "animation_libraries_updated"
+    },
+    {
+      "arguments": [],
+      "name": "animation_list_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "",
+          "name": "anim_name",
+          "type": "StringName"
+        }
+      ],
+      "name": "animation_started"
+    },
+    {
+      "arguments": [],
+      "name": "caches_cleared"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_entered_tree"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "child_exiting_tree"
+    },
+    {
+      "arguments": [],
+      "name": "child_order_changed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "editor_description_changed"
+    },
+    {
+      "arguments": [],
+      "name": "editor_state_changed"
+    },
+    {
+      "arguments": [],
+      "name": "mixer_applied"
+    },
+    {
+      "arguments": [],
+      "name": "mixer_updated"
+    },
+    {
+      "arguments": [],
+      "name": "property_list_changed"
+    },
+    {
+      "arguments": [],
+      "name": "ready"
+    },
+    {
+      "arguments": [],
+      "name": "renamed"
+    },
+    {
+      "arguments": [
+        {
+          "class_name": "Node",
+          "name": "node",
+          "type": "Object"
+        }
+      ],
+      "name": "replacing_by"
+    },
+    {
+      "arguments": [],
+      "name": "script_changed"
+    },
+    {
+      "arguments": [],
+      "name": "tree_entered"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exited"
+    },
+    {
+      "arguments": [],
+      "name": "tree_exiting"
+    }
+  ],
+  "source_hash": "",
+  "source_path": "",
+  "status": "reference_only",
+  "type_name": "AnimationMixer",
+  "validation": {
+    "independent_text": false,
+    "notes": [
+      "reference_validation={\"can_instantiate\":false,\"class_exists\":true,\"witness\":\"AnimationPlayer\",\"witness_inherits\":true}"
+    ],
+    "save_reload": false
+  }
+}

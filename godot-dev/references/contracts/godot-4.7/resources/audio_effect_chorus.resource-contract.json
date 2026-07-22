@@ -1,0 +1,225 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:AudioEffect": "3cebe232d6db197a63374565d27c14ebe2773f496949fa5f150b26d620b004fe"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "629efc43096f576a00506df582bcbc9fff0b2a581e5b1e24ec16ae26f49db2ab",
+  "contract_id": "godot-4.7:resource:AudioEffectChorus",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/audio_effect_chorus-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/audio_effect_chorus-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_audioeffectchorus.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "AudioEffectChorus",
+    "AudioEffect",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "dry",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "8000.0",
+      "hint": 1.0,
+      "hint_string": "1,20500,1,suffix:Hz",
+      "name": "voice/1/cutoff_hz",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "15.0",
+      "hint": 1.0,
+      "hint_string": "0,50,0.01,suffix:ms",
+      "name": "voice/1/delay_ms",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2.0",
+      "hint": 1.0,
+      "hint_string": "0,20,0.01,suffix:ms",
+      "name": "voice/1/depth_ms",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-60,24,0.1,suffix:dB",
+      "name": "voice/1/level_db",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "-0.5",
+      "hint": 1.0,
+      "hint_string": "-1,1,0.01",
+      "name": "voice/1/pan",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.8",
+      "hint": 1.0,
+      "hint_string": "0.1,20,0.1,suffix:Hz",
+      "name": "voice/1/rate_hz",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "8000.0",
+      "hint": 1.0,
+      "hint_string": "1,20500,1,suffix:Hz",
+      "name": "voice/2/cutoff_hz",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "20.0",
+      "hint": 1.0,
+      "hint_string": "0,50,0.01,suffix:ms",
+      "name": "voice/2/delay_ms",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "3.0",
+      "hint": 1.0,
+      "hint_string": "0,20,0.01,suffix:ms",
+      "name": "voice/2/depth_ms",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.0",
+      "hint": 1.0,
+      "hint_string": "-60,24,0.1,suffix:dB",
+      "name": "voice/2/level_db",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.5",
+      "hint": 1.0,
+      "hint_string": "-1,1,0.01",
+      "name": "voice/2/pan",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.2",
+      "hint": 1.0,
+      "hint_string": "0.1,20,0.1,suffix:Hz",
+      "name": "voice/2/rate_hz",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2",
+      "hint": 1.0,
+      "hint_string": "1,4,1",
+      "name": "voice_count",
+      "type": "int",
+      "usage": 16390.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.5",
+      "hint": 1.0,
+      "hint_string": "0,1,0.01",
+      "name": "wet",
+      "type": "float",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"AudioEffectChorus\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "voice_count": "voice_count = 3"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "AudioEffectChorus",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"3\",\"name\":\"voice_count\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/audio_effect_chorus-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/audio_effect_chorus-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

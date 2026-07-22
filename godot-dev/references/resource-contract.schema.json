@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "resource-contract.schema.json",
+  "title": "Godot Resource Contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "contract_id",
+    "kind",
+    "type_name",
+    "engine_version",
+    "engine_build_hash",
+    "scope",
+    "source_path",
+    "source_hash",
+    "inheritance_chain",
+    "base_contract_hashes",
+    "context_requirements",
+    "authoring_mode",
+    "properties",
+    "serialization",
+    "constraints",
+    "evidence",
+    "validation",
+    "status",
+    "contract_hash"
+  ],
+  "properties": {
+    "contract_version": { "const": 2 },
+    "contract_id": { "type": "string", "minLength": 1 },
+    "kind": { "const": "resource" },
+    "type_name": { "type": "string", "minLength": 1 },
+    "engine_version": { "type": "string", "pattern": "^4\\.7\\.1$" },
+    "engine_build_hash": { "type": "string", "minLength": 1 },
+    "scope": { "enum": ["builtin", "third-party", "project"] },
+    "source_path": { "type": "string" },
+    "source_hash": { "type": "string" },
+    "package_id": { "type": "string" },
+    "package_version": { "type": "string" },
+    "inheritance_chain": { "type": "array", "items": { "type": "string" } },
+    "base_contract_hashes": { "type": "object", "additionalProperties": { "type": "string" } },
+    "context_requirements": { "$ref": "#/$defs/contextRequirements" },
+    "authoring_mode": { "enum": ["direct_text", "generated_structure", "scene_template", "resource_saver_only", "reference_only"] },
+    "properties": { "$ref": "#/$defs/propertyList" },
+    "serialization": { "$ref": "#/$defs/serialization" },
+    "constraints": { "type": "array", "items": { "type": "string" } },
+    "evidence": { "$ref": "#/$defs/evidence" },
+    "validation": { "$ref": "#/$defs/validation" },
+    "status": { "enum": ["cataloged", "validated", "stale", "reference_only"] },
+    "contract_hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+  },
+  "$defs": {
+    "contextRequirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "mode", "description"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "mode": { "enum": ["local", "external"] },
+          "description": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "propertyList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "type", "class_name", "hint", "hint_string", "usage", "default_value_text"],
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string" },
+          "class_name": { "type": "string" },
+          "hint": { "type": "integer" },
+          "hint_string": { "type": "string" },
+          "usage": { "type": "integer" },
+          "default_value_text": { "type": "string" }
+        }
+      }
+    },
+    "serialization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["format", "minimal_text", "property_text_examples", "notes"],
+      "properties": {
+        "format": { "enum": ["tres", "tscn-node"] },
+        "minimal_text": { "type": "string" },
+        "property_text_examples": { "type": "object", "additionalProperties": { "type": "string" } },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["official_docs", "official_source", "reflection", "experiments"],
+      "properties": {
+        "official_docs": { "type": "array", "items": { "type": "string" } },
+        "official_source": { "type": "array", "items": { "type": "string" } },
+        "reflection": { "type": "array", "items": { "type": "string" } },
+        "experiments": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "required": ["save_reload", "independent_text", "notes"],
+      "properties": {
+        "save_reload": { "type": "boolean" },
+        "independent_text": { "type": "boolean" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Mesh": "186004572b1cfdeaa25fd73312c5f0fce0f30d8308f437c6a2c08735f6cb309d"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "69cee1db5a2c22511eac4b028590e63d02d6f2989dd1c8b7850e38cd2304ccce",
+  "contract_id": "godot-4.7:resource:ArrayMesh",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/array_mesh-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/array_mesh-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_arraymesh.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "ArrayMesh",
+    "Mesh",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "PackedStringArray()",
+      "hint": 41.0,
+      "hint_string": "",
+      "name": "_blend_shape_names",
+      "type": "PackedStringArray",
+      "usage": 10.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "[]",
+      "hint": 41.0,
+      "hint_string": "",
+      "name": "_surfaces",
+      "type": "Array",
+      "usage": 10.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1",
+      "hint": 2.0,
+      "hint_string": "Normalized,Relative",
+      "name": "blend_shape_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "AABB(0, 0, 0, 0, 0, 0)",
+      "hint": 41.0,
+      "hint_string": "suffix:m",
+      "name": "custom_aabb",
+      "type": "AABB",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Vector2i(0, 0)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "lightmap_size_hint",
+      "type": "Vector2i",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "ArrayMesh",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "ArrayMesh",
+      "name": "shadow_mesh",
+      "type": "Object",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"ArrayMesh\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "blend_shape_mode": "blend_shape_mode = 0"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "ArrayMesh",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"0\",\"name\":\"blend_shape_mode\"}",
+      "nested_resource=shadow_mesh:ArrayMesh",
+      "independent_text=user://godot-dev/builtin-verify/resource/array_mesh-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/array_mesh-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

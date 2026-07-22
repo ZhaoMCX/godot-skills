@@ -1,0 +1,184 @@
+{
+  "authoring_mode": "reference_only",
+  "base_contract_hashes": {
+    "godot-4.7:resource:VisualShaderNodeParameter": "a47576f9466f4caaeb50edaf2699b5ecce0548dbd054a1c6238e1debae7b94a2"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "a653ed8bd07970fe7cacc42d8323c1c3a17ca57270db2cbebea851bdc6ac6138",
+  "contract_id": "godot-4.7:resource:VisualShaderNodeTextureParameter",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "具体子类见证：VisualShaderNodeCubemapParameter"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_visualshadernodetextureparameter.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "ClassDB 4.7.1 VisualShaderNodeTextureParameter：存在、不可实例化。"
+    ]
+  },
+  "inheritance_chain": [
+    "VisualShaderNodeTextureParameter",
+    "VisualShaderNodeParameter",
+    "VisualShaderNode",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "White,Black,Transparent",
+      "name": "color_default",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "default_input_values",
+      "type": "Array",
+      "usage": 10.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "expanded_output_ports",
+      "type": "Array",
+      "usage": 10.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 1.0,
+      "hint_string": "0,15,1",
+      "name": "instance_index",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "linked_parent_graph_frame",
+      "type": "int",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "output_port_for_preview",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "parameter_name",
+      "type": "StringName",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "None,Global,Instance,Instance + Index",
+      "name": "qualifier",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Default,Nearest,Linear,Nearest Mipmap,Linear Mipmap,Nearest Mipmap Anisotropic,Linear Mipmap Anisotropic",
+      "name": "texture_filter",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Default,Enabled,Disabled",
+      "name": "texture_repeat",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "None,Screen,Depth,NormalRoughness",
+      "name": "texture_source",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 2.0,
+      "hint_string": "Data,Color,Normal Map,Anisotropic",
+      "name": "texture_type",
+      "type": "int",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "",
+    "notes": [
+      "ClassDB 明确不可实例化；通过具体子类验证继承和引用边界。"
+    ],
+    "property_text_examples": {}
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "reference_only",
+  "type_name": "VisualShaderNodeTextureParameter",
+  "validation": {
+    "independent_text": false,
+    "notes": [
+      "reference_validation={\"can_instantiate\":false,\"class_exists\":true,\"witness\":\"VisualShaderNodeCubemapParameter\",\"witness_inherits\":true}"
+    ],
+    "save_reload": false
+  }
+}

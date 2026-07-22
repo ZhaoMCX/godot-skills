@@ -1,0 +1,74 @@
+{
+  "authoring_mode": "reference_only",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Resource": "a98273d2046d3145be02fc5956a4882eb948bb79b8f8bdea13fddf4febaab3e9"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "b1f41068df47876005056f97fbb407188501da6a655301b737bdb02a88746f2b",
+  "contract_id": "godot-4.7:resource:EditorNode3DGizmoPlugin",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "没有可实例化的具体子类；仅允许作为类型边界引用。"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_editornode3dgizmoplugin.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "ClassDB 4.7.1 EditorNode3DGizmoPlugin：存在、不可实例化。"
+    ]
+  },
+  "inheritance_chain": [
+    "EditorNode3DGizmoPlugin",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "<derive>",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "",
+    "notes": [
+      "ClassDB 明确不可实例化；通过具体子类验证继承和引用边界。"
+    ],
+    "property_text_examples": {}
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "reference_only",
+  "type_name": "EditorNode3DGizmoPlugin",
+  "validation": {
+    "independent_text": false,
+    "notes": [
+      "reference_validation={\"can_instantiate\":false,\"class_exists\":true,\"witness\":\"\",\"witness_inherits\":false}"
+    ],
+    "save_reload": false
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Material": "78ac476776beb5c29d87486a2c3989631cf4f763da36eb6755c53e158f5fd204"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "5988a7462d8cddf480409bdfdde514dd21231043b27d80ebe71756ef6a19e4b1",
+  "contract_id": "godot-4.7:resource:PhysicalSkyMaterial",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/physical_sky_material-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/physical_sky_material-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_physicalskymaterial.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "PhysicalSkyMaterial",
+    "Material",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,128,0.01",
+      "name": "energy_multiplier",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.1, 0.07, 0.034, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "ground_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.005",
+      "hint": 1.0,
+      "hint_string": "0,1,0.001",
+      "name": "mie_coefficient",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.69, 0.729, 0.812, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "mie_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.8",
+      "hint": 1.0,
+      "hint_string": "-1,1,0.01",
+      "name": "mie_eccentricity",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "night_sky",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "2.0",
+      "hint": 1.0,
+      "hint_string": "0,64,0.01",
+      "name": "rayleigh_coefficient",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.3, 0.405, 0.6, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "rayleigh_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,360,0.01",
+      "name": "sun_disk_scale",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "10.0",
+      "hint": 1.0,
+      "hint_string": "0,1000,0.01",
+      "name": "turbidity",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_debanding",
+      "type": "bool",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"PhysicalSkyMaterial\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "rayleigh_coefficient": "rayleigh_coefficient = 2.5"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "PhysicalSkyMaterial",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"2.5\",\"name\":\"rayleigh_coefficient\"}",
+      "nested_resource=night_sky:Texture2D",
+      "independent_text=user://godot-dev/builtin-verify/resource/physical_sky_material-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/physical_sky_material-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

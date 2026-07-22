@@ -1,0 +1,172 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:OpenXRIPBindingModifier": "fb155ea2fee1ef23dfcd52a3c3fc5a053e08caefe43d939555e7d539ad6ad069"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "6734f3a9d99074966c61fb7bf4412726047c7ea954508f897522afbab9ae7881",
+  "contract_id": "godot-4.7:resource:OpenXRDpadBindingModifier",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/open_xr_dpad_binding_modifier-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/open_xr_dpad_binding_modifier-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_openxrdpadbindingmodifier.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "OpenXRDpadBindingModifier",
+    "OpenXRIPBindingModifier",
+    "OpenXRBindingModifier",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "OpenXRActionSet",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "OpenXRActionSet",
+      "name": "action_set",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.1",
+      "hint": 1.0,
+      "hint_string": "0.0,1.0,0.01",
+      "name": "center_region",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 23.0,
+      "hint_string": "binding_path",
+      "name": "input_path",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "is_sticky",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "OpenXRHapticBase",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "OpenXRHapticBase",
+      "name": "off_haptic",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "OpenXRHapticBase",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "OpenXRHapticBase",
+      "name": "on_haptic",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.6",
+      "hint": 1.0,
+      "hint_string": "0.0,1.0,0.01",
+      "name": "threshold",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.4",
+      "hint": 1.0,
+      "hint_string": "0.0,1.0,0.01",
+      "name": "threshold_released",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.5707964",
+      "hint": 1.0,
+      "hint_string": "1.0,180.0,0.1,radians_as_degrees",
+      "name": "wedge_angle",
+      "type": "float",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"OpenXRDpadBindingModifier\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "threshold": "threshold = 1.0"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "OpenXRDpadBindingModifier",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"1.0\",\"name\":\"threshold\"}",
+      "nested_resource=action_set:OpenXRActionSet",
+      "independent_text=user://godot-dev/builtin-verify/resource/open_xr_dpad_binding_modifier-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/open_xr_dpad_binding_modifier-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

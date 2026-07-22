@@ -1,0 +1,135 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:SkeletonModification2D": "90238a0610ec939376c16f98ab7083311333406ae5bf2ee7c5c629c4a097616b"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "b94b0ed314cd9662864e5ffb2141dff108ef69e180e41dc180f9d06809ec8d29",
+  "contract_id": "godot-4.7:resource:SkeletonModification2DCCDIK",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/skeleton_modification_2dccdik-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/skeleton_modification_2dccdik-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_skeletonmodification2dccdik.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "SkeletonModification2DCCDIK",
+    "SkeletonModification2D",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 1.0,
+      "hint_string": "0, 100, 1",
+      "name": "ccdik_data_chain_length",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "enabled",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0",
+      "hint": 2.0,
+      "hint_string": "process,physics_process",
+      "name": "execution_mode",
+      "type": "int",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "NodePath(\"\")",
+      "hint": 26.0,
+      "hint_string": "Node2D",
+      "name": "target_nodepath",
+      "type": "NodePath",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "NodePath(\"\")",
+      "hint": 26.0,
+      "hint_string": "Node2D",
+      "name": "tip_nodepath",
+      "type": "NodePath",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"SkeletonModification2DCCDIK\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "target_nodepath": "target_nodepath = NodePath(\"GodotDevTarget\")"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "SkeletonModification2DCCDIK",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"NodePath(\\\"GodotDevTarget\\\")\",\"name\":\"target_nodepath\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/skeleton_modification_2dccdik-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/skeleton_modification_2dccdik-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Material": "78ac476776beb5c29d87486a2c3989631cf4f763da36eb6755c53e158f5fd204"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "f1666c0efb3b164813a148f697daa9d5ed893785492004527f5b1b7daa77a5ad",
+  "contract_id": "godot-4.7:resource:ProceduralSkyMaterial",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/procedural_sky_material-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/procedural_sky_material-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_proceduralskymaterial.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "ProceduralSkyMaterial",
+    "Material",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,128,0.01",
+      "name": "energy_multiplier",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.2, 0.169, 0.133, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "ground_bottom_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.02",
+      "hint": 4.0,
+      "hint_string": "",
+      "name": "ground_curve",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,64,0.01",
+      "name": "ground_energy_multiplier",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.6463, 0.6558, 0.6708, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "ground_horizon_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "Texture2D",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Texture2D",
+      "name": "sky_cover",
+      "type": "Object",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(1, 1, 1, 1)",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "sky_cover_modulate",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.15",
+      "hint": 4.0,
+      "hint_string": "",
+      "name": "sky_curve",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "1.0",
+      "hint": 1.0,
+      "hint_string": "0,64,0.01",
+      "name": "sky_energy_multiplier",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.6463, 0.6558, 0.6708, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "sky_horizon_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "Color(0.385, 0.454, 0.55, 1)",
+      "hint": 21.0,
+      "hint_string": "",
+      "name": "sky_top_color",
+      "type": "Color",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "30.0",
+      "hint": 1.0,
+      "hint_string": "0,360,0.01,degrees",
+      "name": "sun_angle_max",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "0.15",
+      "hint": 4.0,
+      "hint_string": "",
+      "name": "sun_curve",
+      "type": "float",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "true",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "use_debanding",
+      "type": "bool",
+      "usage": 6.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"ProceduralSkyMaterial\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "sky_top_color": "sky_top_color = Color(0.25, 0.5, 0.75, 1)"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "ProceduralSkyMaterial",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"Color(0.25, 0.5, 0.75, 1)\",\"name\":\"sky_top_color\"}",
+      "nested_resource=sky_cover:Texture2D",
+      "independent_text=user://godot-dev/builtin-verify/resource/procedural_sky_material-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/procedural_sky_material-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

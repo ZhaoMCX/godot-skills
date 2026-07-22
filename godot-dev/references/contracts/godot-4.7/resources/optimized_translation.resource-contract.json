@@ -1,0 +1,144 @@
+{
+  "authoring_mode": "direct_text",
+  "base_contract_hashes": {
+    "godot-4.7:resource:Translation": "0bbd0ef65246fa67a283f3ebfe9ef382dc5cb5a160eb0c176c626f46d7148f91"
+  },
+  "constraints": [
+    "只保存 PROPERTY_USAGE_STORAGE 属性。"
+  ],
+  "context_requirements": [],
+  "contract_hash": "5f2f6649845f532aabb7def4e0eeaa7a8f747fbf9c157082699a42308e672bb9",
+  "contract_id": "godot-4.7:resource:OptimizedTranslation",
+  "contract_version": 2.0,
+  "engine_build_hash": "a13da4feb8d8aefc283c3763d33a2f170a18d541",
+  "engine_version": "4.7.1",
+  "evidence": {
+    "experiments": [
+      "user://godot-dev/builtin-derive/resource/optimized_translation-minimal.tres",
+      "user://godot-dev/builtin-verify/resource/optimized_translation-direct.tres"
+    ],
+    "official_docs": [
+      "https://docs.godotengine.org/en/4.7/classes/class_optimizedtranslation.html"
+    ],
+    "official_source": [],
+    "reflection": [
+      "Object.get_property_list 4.7.1；ClassDB.can_instantiate=true。"
+    ]
+  },
+  "inheritance_chain": [
+    "OptimizedTranslation",
+    "Translation",
+    "Resource",
+    "RefCounted",
+    "Object"
+  ],
+  "kind": "resource",
+  "properties": [
+    {
+      "class_name": "",
+      "default_value_text": "PackedInt32Array()",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "bucket_table",
+      "type": "PackedInt32Array",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "PackedInt32Array()",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "hash_table",
+      "type": "PackedInt32Array",
+      "usage": 2.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"en\"",
+      "hint": 32.0,
+      "hint_string": "",
+      "name": "locale",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "{}",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "messages",
+      "type": "Dictionary",
+      "usage": 10.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "plural_rules_override",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "false",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_local_to_scene",
+      "type": "bool",
+      "usage": 6.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "\"\"",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "resource_name",
+      "type": "String",
+      "usage": 6.0
+    },
+    {
+      "class_name": "Script",
+      "default_value_text": "null",
+      "hint": 17.0,
+      "hint_string": "Script",
+      "name": "script",
+      "type": "Object",
+      "usage": 1048590.0
+    },
+    {
+      "class_name": "",
+      "default_value_text": "PackedByteArray()",
+      "hint": 0.0,
+      "hint_string": "",
+      "name": "strings",
+      "type": "PackedByteArray",
+      "usage": 2.0
+    }
+  ],
+  "scope": "builtin",
+  "serialization": {
+    "format": "tres",
+    "minimal_text": "[gd_resource type=\"OptimizedTranslation\" format=3]\n\n[resource]\n",
+    "notes": [
+      "最小文本由 Godot 4.7.1 保存实验生成；独立验证阶段只读取本契约重建新文件。"
+    ],
+    "property_text_examples": {
+      "resource_local_to_scene": "resource_local_to_scene = true"
+    }
+  },
+  "source_hash": "",
+  "source_path": "",
+  "status": "validated",
+  "type_name": "OptimizedTranslation",
+  "validation": {
+    "independent_text": true,
+    "notes": [
+      "representative_property={\"expected\":\"true\",\"name\":\"resource_local_to_scene\"}",
+      "该类型没有可安全构造并稳定往返的嵌套 Resource 属性。",
+      "independent_text=user://godot-dev/builtin-verify/resource/optimized_translation-direct.tres",
+      "independent_text=user://godot-dev/builtin-verify/resource/optimized_translation-direct.tres"
+    ],
+    "save_reload": true
+  }
+}

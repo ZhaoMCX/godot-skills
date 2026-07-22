@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://custom_node.gd" id="1_node"]
+
+[node name="DirectNode" type="Node"]
+script = ExtResource("1_node")
+target_path = NodePath("Child")
+
+[node name="Child" type="Node" parent="."]

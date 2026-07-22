@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot Framework"
+  short_description: "维护独立 GF 插件、八类运行时契约与完整契约注释"
+  default_prompt: "使用 $godot-framework 检查框架独立性，按八类契约实现并完整验证这个 Godot 变更。"
