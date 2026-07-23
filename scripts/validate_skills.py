@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILLS = ("godot-dev", "godot-framework", "godot-change-tree")
+SKILLS = ("godot-framework", "godot-change-tree")
 TEXT_SUFFIXES = {".gd", ".json", ".md", ".py", ".toml", ".txt", ".yaml", ".yml"}
 
 
@@ -83,7 +83,7 @@ def main() -> int:
         fail(f"技能目录必须恰好为 {', '.join(SKILLS)}；当前为 {', '.join(actual_skills)}")
     for skill_name in SKILLS:
         validate_skill(skill_name)
-    print("技能仓库验证通过：3 个技能彼此独立，路径可移植，UTF-8 编码有效。")
+    print("技能仓库验证通过：2 个技能彼此独立，路径可移植，UTF-8 编码有效。")
     return 0
 
 

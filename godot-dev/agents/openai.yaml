@@ -1,4 +1,0 @@
-interface:
-  display_name: "Godot Dev"
-  short_description: "指导 Agent 精确读写、推导并验证 Godot 项目资产"
-  default_prompt: "使用 $godot-dev 开发并通过 Godot CLI 验证这个 Godot 项目任务，交付前关闭本任务启动的可见程序。"

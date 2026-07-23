@@ -1,9 +1,0 @@
-[gd_resource type="AnimationNodeBlendTree" load_steps=2 format=3]
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_idle"]
-animation = &"idle"
-
-[resource]
-nodes/idle/node = SubResource("AnimationNodeAnimation_idle")
-nodes/idle/position = Vector2(240, 100)
-node_connections = [&"output", 0, &"idle"]
